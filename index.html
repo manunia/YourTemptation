@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/main.css">
+    <title>YourTemptation</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="navbar">
+                <button class="menu" id="icon-menu" onClick="toggleClass()"></button>
+                <label for="icon-menu">
+                    <div class="hamburger">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                        <span class="bar bar4"></span>
+                    </div>
+                </label>
+
+                <div class="settings">
+                    <span class="setting" id="office">Личный кабинет</span>
+                    <span class="setting" id="ruble">Рубль</span>
+                    <span class="setting" id="ru">Ru</span>
+                    <span class="tel">8 800 500-61-05<br><span class="support">Круглосуточная поддержка</span></span>
+                </div>
+            </div>
+            <nav id="nav" role='navigation'>
+                <ul>
+                    <li><a class="menu-item" href="#">Популярные изделия</a></li>
+                    <li><a class="menu-item" href="#">О компании</a></li>
+                    <li><a class="menu-item" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo"></div>
+            <div class="headline-small">Ювелирные изделия из дерева </div>
+            <div class="headline">Your Temptation</div>
+            <button class="button">Выбрать изделие </button>
+            <div class="figure_1"></div>
+        </div>
+    </header>
+
+    <div class="catalog">
+        <div class="catalog-header">Каталог ювелирных изделий из дерева </div>
+    </div>
+
+    <audio id="mySoundClip" autoplay>
+        <source src="audio/audio1.mp3" type="audio/mpeg">
+        <source src="audio/audio1.ogg" type="audio/ogg; codecs=vorbis">
+        Ваш браузер не поддерживает замечательный элемент audio.
+    </audio>
+
+    <div class="main-content">
+
+        <!--1-->
+        <div class="content flag flag-blue">
+            <img class="content-image det" src="images/1.png">
+            <span class="flag-text">Хит продаж</span>
+            <div class="description" id="anapa">
+				<span class="description-head">Кольцо Василиса премудрая</span><br>
+                <span class="price">49 000 руб.</span>
+            </div>
+        </div>
+		
+        <!--2-->
+        <div class="content">
+            <img class="content-image det" src="images/2.png">
+            <div class="description" id="novoros">
+                <span class="description-head">Кулон Морская сказка</span><br>
+                <span class="price">14 800 руб.</span>
+            </div>
+        </div>
+		
+        <!--3-->
+        <div class="content flag flag-red">
+            <img class="content-image det" src="images/3.png">
+            <span class="flag-text">акция</span>
+            <div class="description" id="sochi">
+                <span class="description-head">Серьги осень</span><br>
+                <span class="discount">15000 руб.</span>
+            </div>
+        </div>
+		
+        <!--4-->
+        <div class="content flag flag-red">
+            <img class="content-image det" src="images/4.png">
+            <span class="flag-text">скидка 10%</span>
+            <div class="description" id="tuapse">
+                <span class="description-head">Комплект зимушка</span><br>
+                <span class="discount">10000 руб.</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <video controls="controls">
+                <source src="video/video1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="video/video1.webm" type='video/webm; codecs="vp8, vorbis"'>
+            </video>
+            <div class="description">
+                <span class="description-head">Креатив</span><br>
+                <span class="price">14 800 - 58 900 руб.</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="button-center"> <button class="button">Больше изделий</button></div>
+
+    <footer>
+
+        <div class="footer-block footer-nav">
+            <a href="#"><span class="footer-nav-item">Вход для партнеров</span></a><br>
+            <a href="#"><span class="footer-nav-item">О компании</span></a><br>
+            <a href="#"><span class="footer-nav-item">Контакты</span></a><br>
+        </div>
+
+        <div class="footer-block cocio">
+            <span class="footer-nav-item">Будь на связи</span><br>
+            <a class="cocio-ico" href="#"><img src="images/vk.png"></a>
+            <a  class="cocio-ico" href="#"><img src="images/ok.png"></a>
+            <a  class="cocio-ico" href="#"><img src="images/yt.png"></a>
+            <a  class="cocio-ico" href="#"><img src="images/insta.png"></a>
+        </div>
+
+        <div class="footer-block copy">
+            <span class="tel">8 800 500-61-05<br><span class="support">Круглосуточная поддержка</span></span><br>
+            <span class="footer-nav-item copyrait">&copy; 2016 ООО "Your Temptation"</span>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
